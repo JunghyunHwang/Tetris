@@ -2,7 +2,7 @@
 
 namespace Tetris
 {
-    internal class GameGrid
+    sealed internal class GameGrid
     {
         private static readonly int ROWS = 22;
         private static readonly int COLUMNS = 10;
